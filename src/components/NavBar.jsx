@@ -2,7 +2,7 @@ import { navTab } from "../constants";
 
 const NavBar = () => {
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-white/10">
       <div className="px-4 mx-auto flex justify-between items-center text-sm">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
