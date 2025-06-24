@@ -2,8 +2,8 @@ import { navTab } from "../constants";
 
 const NavBar = () => {
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-white/10">
-      <div className="px-4 mx-auto flex justify-between items-center text-sm">
+    <nav className="sticky top-0 z-50 py-2 backdrop-blur-lg border-b border-white/10">
+      <div className="px-7 mx-auto flex justify-between items-center text-sm">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
           <img className="h-10 w-10 mr-2" src="/henricakes.svg" alt="Logo" />
