@@ -7,7 +7,7 @@ import "swiper/css/effect-fade"; // ✅ Required for fade effect
 
 import hero1 from "../assets/HERO_1.png";
 import hero2 from "../assets/HERO_2.png";
-
+import hero3 from "../assets/HERO_3.png";
 const HeroCarousel = () => {
   return (
     <Swiper
@@ -29,6 +29,13 @@ const HeroCarousel = () => {
         <img
           src={hero2}
           alt="Slide 2"
+          className="w-full h-full object-contain"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={hero3}
+          alt="Slide 3"
           className="w-full h-full object-contain"
         />
       </SwiperSlide>
