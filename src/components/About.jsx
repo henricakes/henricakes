@@ -9,10 +9,17 @@ const About = () => {
       {/* Content */}
       <div className="relative z-20 flex flex-col justify-center items-center">
         <h2 className="text-3xl font-bold text-center justify-center">ABOUT</h2>
+        <h3 className="text-xl font-poppins text-center justify-center">
+          {"(a little story as well)"}
+        </h3>
         <section>
           <p>
             Hi there! Name's John, a graduate of EARIST - Cavite Campus, and I
-            took a Bachelor of Science in Computer Science. Feel free to
+            took a Bachelor of Science in Computer Science. Feel free to know me
+            by viewing this portfolio that I've created.
+          </p>
+          <p>
+            Feel free to know me by viewing this portfolio that I've created.
           </p>
         </section>
       </div>
