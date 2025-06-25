@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const TechContainer = ({ icon, label }) => {
   return (
     <div className="group max-w-40 aspect-square flex flex-col justify-center items-center bg-gray-600 rounded-lg p-7 transition duration-500 hover:bg-blue-500 hover:ring-4 hover:ring-blue-400 hover:ring-offset-4 hover:shadow-lg">
@@ -11,6 +13,11 @@ const TechContainer = ({ icon, label }) => {
       </div>
     </div>
   );
+};
+
+TechContainer.propTypes = {
+  icon: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
 };
 
 export default TechContainer;
