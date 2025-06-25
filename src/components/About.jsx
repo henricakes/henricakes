@@ -7,22 +7,34 @@ const About = () => {
       <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-charcoal to-transparent z-10" />
 
       {/* Content */}
-      <div className="relative z-20 flex flex-col justify-center items-center">
-        <h2 className="text-3xl font-bold text-center justify-center">ABOUT</h2>
-        <h3 className="text-xl font-poppins text-center justify-center">
-          {"(a little story as well)"}
+      <div className="relative z-20 flex flex-col justify-center items-center px-4 py-10 max-w-3xl mx-auto text-center space-y-6">
+        <h2 className="text-2xl md:text-3xl font-bold">ABOUT</h2>
+        <h3 className="text-base md:text-xl font-poppins text-neutral-300">
+          (a little story as well)
         </h3>
-        <section>
+        <section className="space-y-4 text-sm md:text-base leading-relaxed text-neutral-200">
           <p>
-            Hi there! Name's John, a graduate of EARIST - Cavite Campus, and I
-            took a Bachelor of Science in Computer Science. Feel free to know me
-            by viewing this portfolio that I've created.
+            Hi! I'm John Henry Angas, a Computer Science graduate from{" "}
+            <strong>EARIST – Cavite Campus</strong>. My interest in tech began
+            when my father introduced me to computer games, which sparked my
+            curiosity about what computers and technology can really do.
           </p>
           <p>
-            Feel free to know me by viewing this portfolio that I've created.
+            I enjoy both the technical and creative sides of digital work—from
+            building personal websites and exploring game development, to
+            editing photos and videos using tools like Photoshop, Filmora, and
+            Lightroom. I’m passionate about learning, experimenting, and
+            creating things that reflect both skill and personality.
           </p>
+          <p>
+            I built this portfolio to showcase what I’ve learned so far and to
+            grow from here. I may not always feel confident, but I always give
+            my best—and I’m excited to see where this journey takes me.
+          </p>
+          <p>Feel free to know me more by exploring here.</p>
         </section>
       </div>
+
       <div className="absolute bottom-0 inset-x-0 h-48 bg-gradient-to-t from-charcoal via-charcoal to-transparent z-10" />
     </section>
   );
