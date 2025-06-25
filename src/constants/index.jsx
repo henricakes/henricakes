@@ -1,7 +1,9 @@
 export const navTab = [
-  { label: "About", href: "About" },
-  { label: "Tech Skills", href: "TechSkills" },
-  { label: "Certifications", href: "Certifications" },
-  { label: "Projects", href: "Projects" },
-  { label: "Contact", href: "Contact" },
+  { label: "About", href: "#about" },
+  { label: "Tech Skills", href: "#tech-skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Certifications", href: "#certifications" },
+  { label: "Contact", href: "#contact" },
 ];
+
+export const herocakes = "#herocakes";

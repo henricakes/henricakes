@@ -1,4 +1,4 @@
-import { navTab } from "../constants";
+import { navTab, herocakes } from "../constants";
 
 const NavBar = () => {
   return (
@@ -7,7 +7,9 @@ const NavBar = () => {
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
           <img className="h-10 w-10 mr-2" src="/henricakes.svg" alt="Logo" />
-          <span className="text-xl tracking-tight">Henricakes</span>
+          <span className="text-xl tracking-tight">
+            <a href={herocakes}>Henricakes</a>
+          </span>
         </div>
 
         {/* Desktop Nav Links */}

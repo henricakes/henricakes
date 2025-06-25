@@ -4,19 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: "Poppins", sans-serif;
-  color-scheme: dark;
-}
+@layer base {
+  :root {
+    font-family: "Poppins", sans-serif;
+    color-scheme: dark;
+  }
 
-body,
-html {
-  overflow: visible;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+  body {
+    @apply bg-smoke text-white font-poppins;
+  }
 
-body::-webkit-scrollbar,
-html::-webkit-scrollbar {
-  display: none;
+  html {
+    overflow: visible;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  body::-webkit-scrollbar,
+  html::-webkit-scrollbar {
+    display: none;
+  }
 }
