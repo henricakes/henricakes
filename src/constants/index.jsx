@@ -1,3 +1,5 @@
+import athenaeum from "../assets/ATHENAEUM.png";
+
 export const navTab = [
   { label: "About", href: "#about" },
   { label: "Tech Skills", href: "#tech-skills" },
@@ -8,3 +10,11 @@ export const navTab = [
 ];
 
 export const herocakes = "#herocakes";
+
+export const projects = [
+  {
+    title: "Athenaeum: ECC Library Management System",
+    imageUrl: athenaeum,
+    description: "A library management system for EARIST - Cavite Campus",
+  },
+];
