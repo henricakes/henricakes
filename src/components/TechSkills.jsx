@@ -83,6 +83,8 @@ const TechSkills = () => {
       {/* Latest Work: TInatamad for today (June 27, 2025) Bawi ako bukas. */}
       {/* Latest Work: TInatamad for today (June 28, 2025) Bawi ako bukas. */}
       {/* Latest Work: TInatamad for today (June 29, 2025) Bawi ako bukas. */}
+
+      {/* Latest Work: WALA PA PERO MAY GAGAWIN AKO. (June 30, 2025)*/}
     </>
   );
 };
