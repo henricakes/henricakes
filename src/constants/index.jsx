@@ -17,4 +17,6 @@ export const projects = [
     imageUrl: athenaeum,
     description: "A library management system for EARIST - Cavite Campus",
   },
+
+  /* EHE */
 ];
