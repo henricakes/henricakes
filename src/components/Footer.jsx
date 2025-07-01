@@ -12,7 +12,7 @@ const Footer = () => {
 
       <p className="flex justify-center text-sm">
         &copy; {new Date().getFullYear()}&nbsp;
-        <a href={herocakes}>Henricakes.</a>
+        <a href={herocakes}>Henricakes.</a> {/* Sonar Warning */}
         &nbsp; All rights reserved.
       </p>
     </footer>
