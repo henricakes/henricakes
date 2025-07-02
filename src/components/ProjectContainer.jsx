@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React, { useState } from "react";
 
 const ProjectContainer = React.memo(
@@ -18,7 +19,9 @@ const ProjectContainer = React.memo(
           className={`absolute inset-0 bg-contain bg-center bg-no-repeat transition duration-300 ${
             showInfo ? "blur-lg scale-105" : ""
           }`}
-          style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{
+            backgroundImage: `url(${imageUrl})`,
+          }}
         />
 
         {/* Overlay info */}
@@ -43,5 +46,11 @@ const ProjectContainer = React.memo(
     );
   }
 );
+
+ProjectContainer.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+};
 
 export default ProjectContainer;
