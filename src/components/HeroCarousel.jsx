@@ -1,13 +1,13 @@
-// src/components/HeroCarousel.jsx
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 
 import "swiper/css";
-import "swiper/css/effect-fade"; // ✅ Required for fade effect
+import "swiper/css/effect-fade";
 
 import hero1 from "../assets/HERO_1.png";
 import hero2 from "../assets/HERO_2.png";
 import hero3 from "../assets/HERO_3.png";
+
 const HeroCarousel = () => {
   return (
     <Swiper
@@ -16,29 +16,19 @@ const HeroCarousel = () => {
       fadeEffect={{ crossFade: true }}
       autoplay={{ delay: 4000, disableOnInteraction: false }}
       loop={true}
-      className="h-screen w-full"
+      className="w-full h-screen"
     >
-      <SwiperSlide>
-        <img
-          src={hero1}
-          alt="Slide 1"
-          className="w-screen h-full object-cover"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src={hero2}
-          alt="Slide 2"
-          className="w-screen h-full object-cover items-center"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src={hero3}
-          alt="Slide 3"
-          className="w-screen h-full object-cover "
-        />
-      </SwiperSlide>
+      {[hero1, hero2, hero3].map((img, index) => (
+        <SwiperSlide key={index}>
+          <div className="w-full h-screen">
+            <img
+              src={img}
+              alt={`Slide ${index + 1}`}
+              className="w-full h-full object-contain"
+            />
+          </div>
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };
