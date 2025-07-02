@@ -1,22 +1,24 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
+import GITHUB_SOLID from "../assets/GITHUB_SOLID.svg";
 
 const ProjectContainer = React.memo(
   ({
     title = "Project Title",
     description = "A brief description of the project.",
-    imageUrl = "/default.jpg", // default image if none provided
+    imageUrl = "/default.jpg",
+    githubUrl = "#",
   }) => {
     const [showInfo, setShowInfo] = useState(false);
 
     return (
       <button
         onClick={() => setShowInfo(!showInfo)}
-        className="relative w-56 h-36 sm:w-64 sm:h-40 md:w-72 md:h-48 rounded-xl overflow-hidden border border-white/10 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 will-change-transform"
+        className="relative w-56 h-36 sm:w-64 sm:h-40 md:w-72 md:h-48 rounded-xl overflow-hidden border border-white/40 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 will-change-transform"
       >
         {/* Background Image */}
         <div
-          className={`absolute inset-0 bg-contain bg-center bg-no-repeat transition duration-300 ${
+          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition duration-300 ${
             showInfo ? "blur-lg scale-105" : ""
           }`}
           style={{
@@ -34,11 +36,14 @@ const ProjectContainer = React.memo(
             {title}
           </h3>
           <p className="text-xs sm:text-sm">{description}</p>
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+            <img src={GITHUB_SOLID} alt="GitHub" className="w-7 h-7" />
+          </a>
         </div>
 
         {/* Title (only when not clicked) */}
         {!showInfo && (
-          <div className="absolute inset-0 flex items-center justify-center text-white text-xs sm:text-sm z-10">
+          <div className="absolute inset-0 flex items-center justify-center text-white text-md font-bold sm:text-sm z-10">
             {title}
           </div>
         )}
@@ -51,6 +56,7 @@ ProjectContainer.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
+  githubUrl: PropTypes.string,
 };
 
 export default ProjectContainer;

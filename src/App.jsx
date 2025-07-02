@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import TechSkills from "./components/TechSkills";
 import Projects from "./components/Projects";
-import Certifications from "./components/Certifications";
+
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -15,7 +15,6 @@ const App = () => {
       <About />
       <TechSkills />
       <Projects />
-      <Certifications />
       <Contact />
       <Footer />
     </>

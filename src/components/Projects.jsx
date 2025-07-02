@@ -21,6 +21,7 @@ const Projects = () => {
                 title={project.title}
                 imageUrl={project.imageUrl}
                 description={project.description}
+                githubUrl={project.githubUrl}
               />
             ))}
           </div>
