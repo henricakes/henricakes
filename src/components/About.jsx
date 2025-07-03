@@ -21,10 +21,10 @@ const About = () => {
           </p>
           <p>
             I enjoy both the technical and creative sides of digital work—from
-            building personal websites and exploring game development, to
-            editing photos and videos using tools like Photoshop, Filmora, and
-            Lightroom. I’m passionate about learning, experimenting, and
-            creating things that reflect both skill and personality.
+            building frontend design using React, TailwindCSS, to editing photos
+            and videos using tools like Photoshop, Filmora, and Lightroom. I’m
+            passionate about learning, experimenting, and creating things that
+            reflect both skill and personality.
           </p>
           <p>
             I built this portfolio to showcase what I’ve learned so far and to
