@@ -13,7 +13,11 @@ const Contact = () => {
       <div className="relative z-20 flex flex-col justify-center items-center space-y-6 gap-10 text-center">
         <h2 className="text-3xl font-bold">CONTACT</h2>
         <h3 className="text-base md:text-xl font-poppins">
-          Want to connect with me? You can reach me on these.
+          Want to{" "}
+          <strong className="transition duration-500 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+            connect
+          </strong>{" "}
+          with me? You can reach me on these.
         </h3>
         <div className="flex flex-wrap justify-center items-center gap-6">
           {/* GitHub */}
