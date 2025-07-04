@@ -37,16 +37,13 @@ const ProjectContainer = React.memo(
           </h3>
           <p className="text-xs sm:text-sm">{description}</p>
           <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-            <img src={GITHUB_SOLID} alt="GitHub" className="mt-2 w-7 h-7" />
+            <img
+              src={GITHUB_SOLID}
+              alt="GitHub"
+              className="mt-2 w-7 h-7 md:mt-4 md:w-10 md:h-10"
+            />
           </a>
         </div>
-
-        {/* Title (only when not clicked) */}
-        {!showInfo && (
-          <div className="absolute inset-0 flex items-center justify-center text-white text-md font-bold sm:text-sm z-10">
-            {title}
-          </div>
-        )}
       </button>
     );
   }

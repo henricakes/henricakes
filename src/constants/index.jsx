@@ -18,3 +18,10 @@ export const projects = [
     githubUrl: "https://github.com/henricakes/Athenaeum---Mobile",
   },
 ];
+
+export const contacts = {
+  gitHub: "https://github.com/henricakes",
+  faceBook: "https://www.facebook.com/henricakies",
+  instaGram: "https://www.instagram.com/henricakes_/",
+  linkedin: "https://www.linkedin.com/in/henricakes/",
+};

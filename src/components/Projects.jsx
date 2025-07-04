@@ -22,12 +22,13 @@ const Projects = () => {
                 imageUrl={project.imageUrl}
                 description={project.description}
                 githubUrl={project.githubUrl}
+                className="text-black"
               />
             ))}
           </div>
         </section>
       </div>
-      {/* continue today */}
+
       <div className="absolute bottom-0 inset-x-0 h-48 bg-gradient-to-t from-charcoal via-charcoal to-transparent z-10" />
     </section>
   );

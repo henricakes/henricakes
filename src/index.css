@@ -27,3 +27,7 @@
     display: none;
   }
 }
+
+.text-outline {
+  -webkit-text-stroke: 1px black;
+}
