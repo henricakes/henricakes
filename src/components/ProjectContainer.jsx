@@ -28,7 +28,7 @@ const ProjectContainer = React.memo(
 
         {/* Overlay info */}
         <div
-          className={`absolute inset-0 flex flex-col items-center justify-center text-white px-3 sm:px-4 text-center transition-opacity duration-300 ${
+          className={`absolute inset-0 flex flex-col items-center justify-center text-white px-3 sm:px-4 text-center transition-opacity duration-300  ${
             showInfo ? "opacity-100 bg-black/50" : "opacity-0"
           } z-10`}
         >
@@ -37,7 +37,7 @@ const ProjectContainer = React.memo(
           </h3>
           <p className="text-xs sm:text-sm">{description}</p>
           <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-            <img src={GITHUB_SOLID} alt="GitHub" className="w-7 h-7" />
+            <img src={GITHUB_SOLID} alt="GitHub" className="mt-2 w-7 h-7" />
           </a>
         </div>
 
