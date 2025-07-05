@@ -19,6 +19,7 @@ const Contact = () => {
           </strong>{" "}
           with me? You can reach me on these.
         </h3>
+
         <div className="flex flex-wrap justify-center items-center gap-6">
           {/* GitHub */}
           <div className="flex flex-col items-center">
@@ -26,12 +27,12 @@ const Contact = () => {
               href={contacts.gitHub}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 flex items-center justify-center transition duration-300"
+              className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center transition duration-300"
             >
               <img
                 src={GITHUB_SOLID}
                 alt="GitHub"
-                className="w-9 h-9 object-contain transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
+                className="w-9 h-9 md:w-11 md:h-11 lg:w-12 lg:h-12 object-contain transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
               />
             </a>
             <span className="mt-2 text-sm text-white">GitHub</span>
@@ -43,12 +44,12 @@ const Contact = () => {
               href={contacts.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 flex items-center justify-center transition duration-300"
+              className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center transition duration-300"
             >
               <img
                 src={LINKEDIN}
                 alt="LinkedIn"
-                className="w-12 h-12 object-contain transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
+                className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
               />
             </a>
             <span className="mt-2 text-sm text-white">LinkedIn</span>
