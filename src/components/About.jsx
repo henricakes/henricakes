@@ -13,25 +13,28 @@ const About = () => {
           (a little story as well)
         </h3>
         <section className="space-y-4 text-sm md:text-base leading-relaxed text-neutral-200">
-          <p>
+          <p className="text-justify">
             Hi! I'm John Henry Angas, a Computer Science graduate from{" "}
             <strong>EARIST – Cavite Campus</strong>. My interest in tech began
             when my father introduced me to computer games, which sparked my
             curiosity about what computers and technology can really do.
           </p>
-          <p>
+          <p className="text-justify">
             I enjoy both the technical and creative sides of digital work—from
             building frontend design using React, TailwindCSS, to editing photos
             and videos using tools like Photoshop, Filmora, and Lightroom. I’m
             passionate about learning, experimenting, and creating things that
             reflect both skill and personality.
           </p>
-          <p>
+          <p className="text-justify">
             I built this portfolio to showcase what I’ve learned so far and to
             grow from here. I may not always feel confident, but I always give
             my best—and I’m excited to see where this journey takes me.
           </p>
-          <p>Feel free to know me more by exploring here.</p>
+        </section>
+        <section className="flex-col">
+          <strong className="text-lg ">I GUESS THAT'S IT!</strong>
+          <p>Feel free to know me more by exploring this portfolio.</p>
         </section>
       </div>
 
