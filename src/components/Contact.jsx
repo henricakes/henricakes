@@ -54,6 +54,22 @@ const Contact = () => {
             </a>
             <span className="mt-2 text-sm text-white">LinkedIn</span>
           </div>
+          {/* Gmail */}
+          <div className="flex flex-col items-center">
+            <a
+              href={contacts.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center transition duration-300"
+            >
+              <img
+                src={LINKEDIN}
+                alt="LinkedIn"
+                className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 object-contain transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
+              />
+            </a>
+            <span className="mt-2 text-sm text-white">Gmail</span>
+          </div>
         </div>
       </div>
 
