@@ -20,7 +20,7 @@ const HeroCarousel = () => {
     >
       {[hero1, hero2, hero3].map((img, index) => (
         <SwiperSlide key={index}>
-          <div className="w-full h-screen">
+          <div className="w-screen h-full">
             <img
               src={img}
               alt={`Slide ${index + 1}`}
