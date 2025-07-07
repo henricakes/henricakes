@@ -17,7 +17,7 @@ const Contact = () => {
           <strong className="transition duration-500 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
             connect
           </strong>{" "}
-          with me? You can reach me on these.
+          with me? You can reach me on these platforms.
         </h3>
 
         <div className="flex flex-wrap justify-center items-center gap-6">

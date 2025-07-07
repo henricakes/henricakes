@@ -12,7 +12,7 @@ const About = () => {
         <h3 className="text-base md:text-xl font-poppins text-neutral-300">
           (a little story as well)
         </h3>
-        <section className="space-y-4 text-sm md:text-base leading-relaxed text-neutral-200">
+        <section className="space-y-4 text-sm md:text-base leading-relaxed text-neutral-200 m-4">
           <p className="text-justify">
             Hi! I'm John Henry Angas, a Computer Science graduate from{" "}
             <strong>EARIST – Cavite Campus</strong>. My interest in tech began

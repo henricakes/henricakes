@@ -10,7 +10,7 @@ const Hero = () => {
       <HeroCarousel />
 
       <h1>
-        <span className="absolute inset-0 flex justify-center items-center text-4xl font-extrabold text-white z-10 drop-shadow-lg text-center">
+        <span className="absolute inset-0 flex justify-center items-center text-4xl font-extrabold text-white z-10 drop-shadow-lg text-center md:text-6xl">
           HENRICAKES
         </span>
       </h1>
