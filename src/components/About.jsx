@@ -29,7 +29,8 @@ const About = () => {
           <p className="text-justify">
             I built this portfolio to showcase what I’ve learned so far and to
             grow from here. I may not always feel confident, but I always give
-            my best—and I’m excited to see where this journey takes me.
+            my best—and I’m excited to see where this journey takes me while
+            growing as a person.
           </p>
         </section>
         <section className="flex-col">
