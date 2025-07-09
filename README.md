@@ -26,7 +26,7 @@
 <img width="100" height="100"src="src/assets/HTML.svg"/>
 <img width="100" height="100"src="src/assets/CSS.svg"/>
 <img width="100" height="100"src="src/assets/JAVASCRIPT.svg"/>
-<img width="100" height="100"src="src/assets/REACT.svg"/>
+<img width="100" height="100"src="src/assets/react.svg"/>
 <img width="100" height="100"src="src/assets/TAILWIND.svg"/>
 <img width="100" height="100"src="src/assets/VITE.svg"/>
 <img width="100" height="100"src="src/assets/EXPO.svg"/>
