@@ -24,4 +24,6 @@ export const contacts = {
   faceBook: "https://www.facebook.com/henricakies",
   instaGram: "https://www.instagram.com/henricakes_/",
   linkedin: "https://www.linkedin.com/in/henricakes/",
+  gmail:
+    "https://mail.google.com/mail/?view=cm&fs=1&to=angasjohnhenry@gmail.com",
 };
