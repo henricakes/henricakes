@@ -22,7 +22,7 @@
 <div align="center">
   <img src="src/assets/HTML.svg" height="80" style="margin: 0 10px;" />
   <img src="src/assets/CSS.svg" height="80" style="margin: 0 10px;" />
-  <img src="src/assets/JAVASCRIPT.svg" height="74" style="margin: 0 10px;" />
+  <img src="src/assets/JAVASCRIPT.svg" height="70" style="margin: 0 10 2px; padding:2" />
   <img src="src/assets/react.svg" height="80" style="margin: 0 10px;" />
   <img src="src/assets/TAILWIND.svg" height="80" style="margin: 0 10px;" />
   <img src="src/assets/VITE.svg" height="80" style="margin: 0 10px;" />
