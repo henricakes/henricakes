@@ -18,15 +18,16 @@
 <br/>
 <br/>
 <h1><strong>TECH STACK</strong></h1>
-<p>Take a look -Skyrim Merchants</p>
+<p>Take a look - Skyrim Merchants</p>
 <div align="center">
-<img width="100" height="100"src="src/assets/HTML.svg"/>
-<img width="100" height="100"src="src/assets/CSS.svg"/>
-<img width="100" height="100"src="src/assets/JAVASCRIPT.svg"/>
-<img width="100" height="100"src="src/assets/react.svg"/>
-<img width="100" height="100"src="src/assets/TAILWIND.svg"/>
-<img width="100" height="100"src="src/assets/VITE.svg"/>
-<img width="100" height="100"src="src/assets/EXPO.svg"/>
-<img width="100" height="100"src="src/assets/GIT.svg"/>
+  <img src="src/assets/HTML.svg" height="80" style="margin: 0 10px;" />
+  <img src="src/assets/CSS.svg" height="80" style="margin: 0 10px;" />
+  <img src="src/assets/JAVASCRIPT.svg" height="74" style="margin: 0 10px;" />
+  <img src="src/assets/react.svg" height="80" style="margin: 0 10px;" />
+  <img src="src/assets/TAILWIND.svg" height="80" style="margin: 0 10px;" />
+  <img src="src/assets/VITE.svg" height="80" style="margin: 0 10px;" />
+  <img src="src/assets/EXPO.svg" height="80" style="margin: 0 10px;" />
+  <img src="src/assets/GIT.svg" height="80" style="margin: 0 10px;" />
+</div>
 </div>
 </div>
