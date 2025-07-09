@@ -1,11 +1,12 @@
-<div align="center"> <!-- DIV Container | Start everything inside this container <33-->
-<div align="left">
-<p>Hello! My name is John. </p>
-</div>
+<div align="center">
+<h1>Greetings!</h1>
+<h2>My name is John.</h2>
+<div align="center">
 <br/>
 <br/>
-<h1><strong>GITHUB ACTIVITY</strong></h1>
-<p>I don't even know if this is interesting.</p>
+<br/>
+
+<p style="font-weight:bold;font-size:50px">My Stats</p>
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=henricakes&theme=react&show_icons=true&hide_border=true&count_private=true" /></div>
 <br/>
 <br/>
