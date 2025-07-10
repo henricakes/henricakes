@@ -38,16 +38,16 @@
 # CONNECT WITH ME
 
 <div align="center">
-<a href="https://github.com/henricakes">
-<img src="src/assets/GITHUB.svg" height="50" />
+<a href="https://github.com/henricakes" target="_blank">
+<img src="src/assets/GITHUB.svg" height="50" alt="Github" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=angasjohnhenry@gmail.com">
-<img src="src/assets/GMAIL_COLORED.svg" height="50">
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=angasjohnhenry@gmail.com" target="_blank"v>
+<img src="src/assets/GMAIL_COLORED.svg" height="50" alt="Gmail">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/henricakes">
-<img src="src/assets/LINKEDIN.svg" height="55" /></a>
+<a href="https://www.linkedin.com/in/henricakes" target="_blank">
+<img src="src/assets/LINKEDIN.svg" height="55" alt="LinkedIn" /></a>
 </div>
 
 </div>
