@@ -21,10 +21,9 @@ const NavBar = () => {
           ))}
         </ul>
 
-        {/* Mobile Menu Icon (placeholder for future) */}
+        {/* Mobile Menu Icon (placeholder for future) kaso di ko muna gagawin */}
         <button className="lg:hidden">
           {/* You can add an icon like <MenuIcon /> here later */}
-          <span className="text-white text-2xl">☰</span>
         </button>
       </div>
     </nav>

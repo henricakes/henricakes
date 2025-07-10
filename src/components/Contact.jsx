@@ -13,7 +13,7 @@ const Contact = () => {
 
       <div className="relative z-20 flex flex-col justify-center items-center space-y-6 gap-10 text-center">
         <h2 className="text-3xl font-bold">CONTACT</h2>
-        <h3 className="text-base md:text-xl font-poppins">
+        <h3 className="text-base md:text-xl font-poppins m-3">
           Want to{" "}
           <strong className="transition duration-500 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
             connect
