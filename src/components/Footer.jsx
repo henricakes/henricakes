@@ -8,7 +8,11 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row items-center justify-between gap-3">
         {/* LEFT: Logo and Name */}
         <div className="flex items-center gap-2">
-          <img className="h-10 w-10 mr-2" src="/henricakes.svg" alt="Logo" />
+          <img
+            className="h-10 w-10 mr-2"
+            src={`${import.meta.env.BASE_URL}henricakes.svg`}
+            alt="Logo"
+          />
           <span className="text-2xl font-bold tracking-tight">
             <a href={herocakes}>Henricakes</a>
           </span>
