@@ -3,7 +3,7 @@
 <p>My name is John.</p>
 <div align="center">
 
-<p style="font-weight:bold;font-size:50px">My Stats</p>
+<h1>My Stats</h1>
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=henricakes&theme=react&show_icons=true&hide_border=true&count_private=true" /></div>
 <br/>
 <br/>
