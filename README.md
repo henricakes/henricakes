@@ -1,20 +1,13 @@
 <div align="center">
 
-# MY STATS
+
 
 <img src="https://github-readme-stats.vercel.app/api?username=henricakes&theme=react&show_icons=true&hide_border=true&count_private=true" />
 <br><br>
 
-# 🔥 CONTRIBUTIONS 🔥
-
-### Here's my contribution and streak count.
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=henricakes&theme=react&hide_border=true" />
 <br><br>
-
-# MOST USED LANGUAGE
-
-### Here's my frequently used programming languages
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=henricakes&theme=react&show_icons=true&hide_border=true&layout=compact" />
 <br><br>
