@@ -1,10 +1,7 @@
 <div align="center">
 
-
-
 <img src="https://github-readme-stats.vercel.app/api?username=henricakes&theme=react&show_icons=true&hide_border=true&count_private=true" />
 <br><br>
-
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=henricakes&theme=react&hide_border=true" />
 <br><br>
