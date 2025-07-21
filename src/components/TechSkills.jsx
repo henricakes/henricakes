@@ -4,6 +4,7 @@ import TechContainer from "./TechContainer";
 import HTML from "../assets/HTML.svg";
 import CSS from "../assets/CSS.svg";
 import JAVASCRIPT from "../assets/JAVASCRIPT.svg";
+import TYPESCRIPT from "../assets/TYPESCRIPT.svg";
 import REACT from "../assets/react.svg";
 import VITE from "../assets/VITE.svg";
 import TAILWIND from "../assets/TAILWIND.svg";
@@ -39,6 +40,7 @@ const TechSkills = () => {
               <TechContainer label={"HTML"} icon={HTML} />
               <TechContainer label={"CSS"} icon={CSS} />
               <TechContainer label={"Javascript"} icon={JAVASCRIPT} />
+              <TechContainer label={"Typescript"} icon={TYPESCRIPT} />
               <TechContainer label={"React"} icon={REACT} />
               <TechContainer label={"Vite"} icon={VITE} />
               <TechContainer label={"TailwindCSS"} icon={TAILWIND} />
