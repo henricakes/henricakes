@@ -17,7 +17,7 @@ const Hero = () => {
 
       <HeroTypingAnimation />
 
-      <div className="absolute bottom-0 inset-x-0 h-48 bg-gradient-to-t from-charcoal via-charcoal to-transparent z-10" />
+      <div className="absolute bottom-0 inset-x-0 h-20 bg-gradient-to-t from-charcoal via-charcoal to-transparent z-10" />
     </section>
   );
 };
