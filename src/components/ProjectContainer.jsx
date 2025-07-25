@@ -14,7 +14,7 @@ const ProjectContainer = React.memo(
     return (
       <button
         onClick={() => setShowInfo(!showInfo)}
-        className="relative w-56 h-36 sm:w-64 sm:h-40 md:w-72 md:h-48 rounded-xl overflow-hidden border border-white/40 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 will-change-transform"
+        className="relative w-56 h-36 sm:w-64 sm:h-40 md:w-72 md:h-48 rounded-xl overflow-hidden transition duration-200 focus:outline-none focus:ring-2 focus:ring-white will-change-transform"
       >
         {/* Background Image */}
         <div
