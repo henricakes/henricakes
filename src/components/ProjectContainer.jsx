@@ -36,13 +36,15 @@ const ProjectContainer = React.memo(
             {title}
           </h3>
           <p className="text-xs sm:text-sm">{description}</p>
-          <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-            <img
-              src={GITHUB_SOLID}
-              alt="GitHub"
-              className="mt-2 w-7 h-7 md:mt-4 md:w-10 md:h-10"
-            />
-          </a>
+          {showInfo && (
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+              <img
+                src={GITHUB_SOLID}
+                alt="GitHub"
+                className="mt-2 w-7 h-7 md:mt-4 md:w-10 md:h-10"
+              />
+            </a>
+          )}
         </div>
       </button>
     );

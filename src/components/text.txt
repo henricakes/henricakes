@@ -2,10 +2,5 @@ TO-DO
 
  >> FINALIZE THE CONTENT
  >> ADD MORE BREAKPOINTS FOR RESPONSIVENESS++
-
-
  >> IT IS DONE!
-
- >> adding some skills later
- >> not doing good
  

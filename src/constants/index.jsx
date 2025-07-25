@@ -1,5 +1,5 @@
 import athenaeum from "../assets/ATHENAEUM_LOGO.png";
-
+import henricakes from "../assets/HENRICAKES_LOGO.png";
 export const navTab = [
   { label: "About", href: "#about" },
   { label: "Tech Skills", href: "#tech-skills" },
@@ -16,6 +16,12 @@ export const projects = [
     imageUrl: athenaeum,
     description: "A library management system for EARIST - Cavite Campus",
     githubUrl: "https://github.com/henricakes/Athenaeum---Mobile",
+  },
+  {
+    title: "Henricakes",
+    imageUrl: henricakes,
+    description: "My minimalist personal portfolio.",
+    githubUrl: "https://github.com/henricakes/henricakes",
   },
 ];
 
